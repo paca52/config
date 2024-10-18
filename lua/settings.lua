@@ -37,3 +37,6 @@ vim.opt.shiftwidth = 4
 vim.opt.tabstop = 4
 vim.opt.expandtab = true
 vim.opt.smartindent = true
+
+-- limit the height of the nvim-cmp and other pop-ups
+vim.o.pumheight = 20
